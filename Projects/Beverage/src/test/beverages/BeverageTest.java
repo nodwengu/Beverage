@@ -1,9 +1,7 @@
 package beverages;
 
 import main.beverages.*;
-import main.temperatures.Fridge;
-import main.temperatures.Microwave;
-import main.temperatures.Temperature;
+import main.temperatures.*;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -160,23 +158,23 @@ class BeverageTest {
       Beverage beverage = new FruitJuice();
       Fridge temperature = new Fridge();
       
-      ColdBeverage coldBeverage = (ColdBeverage) beverage;
+      FruitJuice fruitJuice = (FruitJuice) beverage;
       
       Person olwethu = new Person();
       
       assertEquals("Drinking a juice so: Don't spill your juice its too precious", olwethu.drinkBeverage(beverage));
-      
-      coldBeverage.setForMinutes(temperature);
-      assertEquals(3, coldBeverage.getTemperature());
-      //System.out.println("Set for minutes: " + coldBeverage.getTemperature());
+   
+      fruitJuice.setForMinutes(temperature);
+      assertEquals(3, fruitJuice.getTemperature());
+      //System.out.println("Set for minutes: " + fruitJuice.getTemperature());
 
-      coldBeverage.setForHours(temperature);
-      assertEquals(10, coldBeverage.getTemperature());
-      //System.out.println("Set for hours: " + coldBeverage.getTemperature());
+      fruitJuice.setForHours(temperature);
+      assertEquals(10, fruitJuice.getTemperature());
+     // System.out.println("Set for hours: " + fruitJuice.getTemperature());
 
-      coldBeverage.setForDays(temperature);
-      assertEquals(20, coldBeverage.getTemperature());
-      //System.out.println("Set for days: " + coldBeverage.getTemperature());
+      fruitJuice.setForDays(temperature);
+      assertEquals(20, fruitJuice.getTemperature());
+      //System.out.println("Set for days: " + fruitJuice.getTemperature());
    }
    
 }
