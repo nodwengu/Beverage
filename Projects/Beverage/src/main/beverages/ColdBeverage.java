@@ -1,27 +1,30 @@
 package main.beverages;
 
-import main.temperatures.Fridge;
+import main.temperatures.Coolable;
 
-public class ColdBeverage extends Beverage {
+public class ColdBeverage extends Beverage implements Coolable {
    private int temperature;
    
-   public int getTemperature() {
+   @Override
+   public int currentTemperature() {
       return temperature;
    }
    
-   public void setForMinutes(Fridge temperature) {
-      temperature.coolForMinutes(temperature);
-      this.temperature = temperature.currentTemperature();
+   @Override
+   public int coolDownWith(int number) {
+      return number;
    }
    
-   public void setForHours(Fridge temperature) {
-      temperature.coolForHours(temperature);
-      this.temperature = temperature.currentTemperature();
+   public void setForMinutes(Coolable coolableObj) {
+      temperature = coolableObj.coolDownWith(3);
    }
    
-   public void setForDays(Fridge temperature) {
-      temperature.coolForDays(temperature);
-      this.temperature = temperature.currentTemperature();
+   public void setForHours(Coolable coolableObj) {
+      temperature = coolableObj.coolDownWith(10);
+   }
+   
+   public void setForDays(Coolable coolableObj) {
+      temperature = coolableObj.coolDownWith(20);
    }
    
    @Override

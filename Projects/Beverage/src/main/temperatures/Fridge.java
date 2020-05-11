@@ -1,16 +1,10 @@
 package main.temperatures;
 
-public class Fridge implements Coolable {
+public class Fridge {
    private int temperature;
    
-   @Override
-   public int currentTemperature() {
+   public int getTemperature() {
       return temperature;
-   }
-   
-   @Override
-   public int coolDownWith(int number) {
-      return number;
    }
    
    public void coolForMinutes(Coolable coolableObj) {

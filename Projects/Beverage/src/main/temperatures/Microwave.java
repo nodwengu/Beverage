@@ -1,16 +1,10 @@
 package main.temperatures;
 
-public class Microwave implements Heatable {
+public class Microwave {
    private int temperature;
    
-   @Override
-   public int currentTemperature() {
+   public int getTemperature() {
       return temperature;
-   }
-   
-   @Override
-   public int heatUpTo(int number) {
-      return number;
    }
    
    public void low(Heatable heatableObj) {

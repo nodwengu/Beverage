@@ -13,8 +13,8 @@
         <option value="Kotlin File" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -138,9 +138,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BeverageTest" />
+        <item itemvalue="JUnit.BeverageTest.shouldBeAbleToHeatUpBeverage" />
         <item itemvalue="JUnit.BeverageTest.shouldBeAbleToCoolDownFruitJuice" />
         <item itemvalue="JUnit.BeverageTest.shouldBeAbleToCoolDownBeverage" />
-        <item itemvalue="JUnit.BeverageTest.shouldBeAbleToHeatUpBeverage" />
         <item itemvalue="JUnit.BeverageTest.test" />
       </list>
     </recent_temporary>
@@ -167,10 +167,10 @@
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="181" y="96" width="1319" height="704" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/81.24.1519.876@81.24.1519.876" timestamp="1588860028420" />
-    <state x="598" y="309" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589021730892">
+    <state x="598" y="309" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589224248585">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state x="598" y="309" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/81.24.1519.876@81.24.1519.876" timestamp="1589021730892" />
+    <state x="598" y="309" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/81.24.1519.876@81.24.1519.876" timestamp="1589224248585" />
     <state x="578" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587670877364">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
@@ -179,22 +179,22 @@
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="472" y="192" key="FileChooserDialogImpl/81.24.1519.876@81.24.1519.876" timestamp="1587383344609" />
-    <state width="1473" height="237" key="GridCell.Tab.0.bottom" timestamp="1589214945448">
+    <state width="1473" height="237" key="GridCell.Tab.0.bottom" timestamp="1589224931369">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.bottom/81.24.1519.876@81.24.1519.876" timestamp="1589214945448" />
-    <state width="1473" height="237" key="GridCell.Tab.0.center" timestamp="1589214945446">
+    <state width="1473" height="237" key="GridCell.Tab.0.bottom/81.24.1519.876@81.24.1519.876" timestamp="1589224931369" />
+    <state width="1473" height="237" key="GridCell.Tab.0.center" timestamp="1589224931367">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.center/81.24.1519.876@81.24.1519.876" timestamp="1589214945446" />
-    <state width="1473" height="237" key="GridCell.Tab.0.left" timestamp="1589214945445">
+    <state width="1473" height="237" key="GridCell.Tab.0.center/81.24.1519.876@81.24.1519.876" timestamp="1589224931367" />
+    <state width="1473" height="237" key="GridCell.Tab.0.left" timestamp="1589224931367">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.left/81.24.1519.876@81.24.1519.876" timestamp="1589214945445" />
-    <state width="1473" height="237" key="GridCell.Tab.0.right" timestamp="1589214945447">
+    <state width="1473" height="237" key="GridCell.Tab.0.left/81.24.1519.876@81.24.1519.876" timestamp="1589224931367" />
+    <state width="1473" height="237" key="GridCell.Tab.0.right" timestamp="1589224931368">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.right/81.24.1519.876@81.24.1519.876" timestamp="1589214945447" />
+    <state width="1473" height="237" key="GridCell.Tab.0.right/81.24.1519.876@81.24.1519.876" timestamp="1589224931368" />
     <state x="328" y="26" key="SettingsEditor" timestamp="1587735670856">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
@@ -203,18 +203,18 @@
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="617" y="228" key="chooseDestDirectoryDialog/81.24.1519.876@81.24.1519.876" timestamp="1587384171531" />
-    <state x="501" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1588924233004">
+    <state x="501" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1589221610618">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state x="501" y="277" key="com.intellij.ide.util.TipDialog/81.24.1519.876@81.24.1519.876" timestamp="1588924233004" />
+    <state x="501" y="277" key="com.intellij.ide.util.TipDialog/81.24.1519.876@81.24.1519.876" timestamp="1589221610618" />
     <state x="517" y="344" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587388709060">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="517" y="344" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/81.24.1519.876@81.24.1519.876" timestamp="1587388709060" />
-    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589021661478">
+    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589224192849">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog/81.24.1519.876@81.24.1519.876" timestamp="1589021661478" />
+    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog/81.24.1519.876@81.24.1519.876" timestamp="1589224192849" />
     <state x="154" y="51" key="new project wizard" timestamp="1588074027171">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
