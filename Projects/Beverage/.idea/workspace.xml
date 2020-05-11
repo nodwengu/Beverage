@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b00886f-0fbc-43b0-8179-8b2eba2bb5bf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1anrzHo4vjtsHWxyC0YRDwbs6Ir" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.temperatures" />
+      <recent name="main.beverages" />
+      <recent name="beverages" />
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="temperatures" />
+      <recent name="" />
+      <recent name="beverages" />
+      <recent name="main" />
+      <recent name="main.beverages2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BeverageTest.shouldBeAbleToCoolDownFruitJuice">
+    <configuration name="BeverageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="beverages" />
+      <option name="MAIN_CLASS_NAME" value="beverages.BeverageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeverageTest.shouldBeAbleToCoolDownBeverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beverages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="beverages" />
+      <option name="MAIN_CLASS_NAME" value="beverages.BeverageTest" />
+      <option name="METHOD_NAME" value="shouldBeAbleToCoolDownBeverage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeverageTest.shouldBeAbleToCoolDownFruitJuice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beverages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="beverages" />
+      <option name="MAIN_CLASS_NAME" value="beverages.BeverageTest" />
+      <option name="METHOD_NAME" value="shouldBeAbleToCoolDownFruitJuice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeverageTest.shouldBeAbleToHeatUpBeverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beverages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="beverages" />
+      <option name="MAIN_CLASS_NAME" value="beverages.BeverageTest" />
+      <option name="METHOD_NAME" value="shouldBeAbleToHeatUpBeverage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeverageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beverages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="beverages" />
+      <option name="MAIN_CLASS_NAME" value="beverages.BeverageTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeverageTest.shouldBeAbleToCoolDownFruitJuice" />
+        <item itemvalue="JUnit.BeverageTest" />
+        <item itemvalue="JUnit.BeverageTest.shouldBeAbleToCoolDownBeverage" />
+        <item itemvalue="JUnit.BeverageTest.shouldBeAbleToHeatUpBeverage" />
+        <item itemvalue="JUnit.BeverageTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b00886f-0fbc-43b0-8179-8b2eba2bb5bf" name="Default Changelist" comment="" />
+      <created>1587382459351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587382459351</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="110" key="#Project_Structure" timestamp="1587383748426">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="440" y="110" key="#Project_Structure/81.24.1519.876@81.24.1519.876" timestamp="1587383748426" />
+    <state x="181" y="96" width="1319" height="704" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588860028420">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="181" y="96" width="1319" height="704" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/81.24.1519.876@81.24.1519.876" timestamp="1588860028420" />
+    <state x="598" y="309" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589021730892">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="598" y="309" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/81.24.1519.876@81.24.1519.876" timestamp="1589021730892" />
+    <state x="578" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587670877364">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="578" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/81.24.1519.876@81.24.1519.876" timestamp="1587670877364" />
+    <state x="472" y="192" key="FileChooserDialogImpl" timestamp="1587383344609">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="472" y="192" key="FileChooserDialogImpl/81.24.1519.876@81.24.1519.876" timestamp="1587383344609" />
+    <state width="1473" height="237" key="GridCell.Tab.0.bottom" timestamp="1589212109935">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state width="1473" height="237" key="GridCell.Tab.0.bottom/81.24.1519.876@81.24.1519.876" timestamp="1589212109935" />
+    <state width="1473" height="237" key="GridCell.Tab.0.center" timestamp="1589212109935">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state width="1473" height="237" key="GridCell.Tab.0.center/81.24.1519.876@81.24.1519.876" timestamp="1589212109935" />
+    <state width="1473" height="237" key="GridCell.Tab.0.left" timestamp="1589212109934">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state width="1473" height="237" key="GridCell.Tab.0.left/81.24.1519.876@81.24.1519.876" timestamp="1589212109934" />
+    <state width="1473" height="237" key="GridCell.Tab.0.right" timestamp="1589212109935">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state width="1473" height="237" key="GridCell.Tab.0.right/81.24.1519.876@81.24.1519.876" timestamp="1589212109935" />
+    <state x="328" y="26" key="SettingsEditor" timestamp="1587735670856">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="328" y="26" key="SettingsEditor/81.24.1519.876@81.24.1519.876" timestamp="1587735670856" />
+    <state x="617" y="228" key="chooseDestDirectoryDialog" timestamp="1587384171531">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="617" y="228" key="chooseDestDirectoryDialog/81.24.1519.876@81.24.1519.876" timestamp="1587384171531" />
+    <state x="501" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1588924233004">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="501" y="277" key="com.intellij.ide.util.TipDialog/81.24.1519.876@81.24.1519.876" timestamp="1588924233004" />
+    <state x="517" y="344" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587388709060">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="517" y="344" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/81.24.1519.876@81.24.1519.876" timestamp="1587388709060" />
+    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589021661478">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog/81.24.1519.876@81.24.1519.876" timestamp="1589021661478" />
+    <state x="154" y="51" key="new project wizard" timestamp="1588074027171">
+      <screen x="81" y="24" width="1519" height="876" />
+    </state>
+    <state x="154" y="51" key="new project wizard/81.24.1519.876@81.24.1519.876" timestamp="1588074027171" />
+  </component>
+</project>
