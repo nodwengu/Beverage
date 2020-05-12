@@ -8,15 +8,18 @@ public class Fridge {
    }
    
    public void coolForMinutes(Coolable coolableObj) {
-      temperature = coolableObj.coolDownWith(3);
+      coolableObj.coolDownWith(3);
+      temperature = coolableObj.currentTemperature();
    }
    
    public void coolForHours(Coolable coolableObj) {
-      temperature = coolableObj.coolDownWith(10);
+      coolableObj.coolDownWith(10);
+      temperature = coolableObj.currentTemperature();
    }
    
    public void coolForDays(Coolable coolableObj) {
-      temperature = coolableObj.coolDownWith(20);
+      coolableObj.coolDownWith(20);
+      temperature = coolableObj.currentTemperature();
    }
    
    

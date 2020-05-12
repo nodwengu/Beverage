@@ -8,14 +8,17 @@ public class Microwave {
    }
    
    public void low(Heatable heatableObj) {
-      temperature = heatableObj.heatUpTo(30);
+      heatableObj.heatUpTo(30);
+      temperature = heatableObj.currentTemperature();
    }
    
    public void medium(Heatable heatableObj) {
-      temperature = heatableObj.heatUpTo(60);
+      heatableObj.heatUpTo(60);
+      temperature = heatableObj.currentTemperature();
    }
    
    public void high(Heatable heatableObj) {
-      temperature = heatableObj.heatUpTo(90);
+      heatableObj.heatUpTo(90);
+      temperature = heatableObj.currentTemperature();
    }
 }

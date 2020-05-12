@@ -90,42 +90,9 @@ class BeverageTest {
 
       //assertEquals("Don't spill your cold drink", fruitJuice.drink());
    }
-
-//   @Test
-//   public void shouldBeAbleToDrinkFruitJuice12() {
-//      Beverage beverage = new FruitJuice();
-//      ColdBeverage coldBeverage = (ColdBeverage) beverage;
-//      //FruitJuice fruitJuice = (FruitJuice) beverage;
-//      Person olwethu = new Person();
-//
-//      assertEquals("Drinking a juice so: Don't spill your juice its too precious", olwethu.drinkBeverage(beverage));
-//      assertEquals("Don't spill your juice its too precious", coldBeverage.dontSpill());
-//
-//      //assertEquals("Don't spill your cold drink", fruitJuice.drink());
-//   }
    
    @Test
-   public void shouldBeAbleToHeatUpBeverage() {
-      Beverage beverage = new HotBeverage();
-     
-      HotBeverage hotBeverage = (HotBeverage) beverage;
-      
-      Person olwethu = new Person();
-      
-      assertEquals("Drink a hot beverage", olwethu.drinkBeverage(beverage));
-     
-      hotBeverage.setLowTemperature(hotBeverage);
-      assertEquals(30, hotBeverage.currentTemperature());
-     
-      hotBeverage.setMediumTemperature(hotBeverage);
-      assertEquals(60, hotBeverage.currentTemperature());
-      
-      hotBeverage.setHighTemperature(hotBeverage);
-      assertEquals(90, hotBeverage.currentTemperature());
-   }
-   
-   @Test
-   public void shouldBeAbleToCoolDownBeverage() {
+   public void shouldBeAbleToCoolDownBeverageForMinutes() {
       Beverage beverage = new ColdBeverage();
       
       ColdBeverage coldBeverage = (ColdBeverage) beverage;
@@ -135,17 +102,39 @@ class BeverageTest {
       assertEquals("Drink a cold beverage", olwethu.drinkBeverage(beverage));
       
       coldBeverage.setForMinutes(coldBeverage);
-      assertEquals(3, coldBeverage.currentTemperature());
-     
-      coldBeverage.setForHours(coldBeverage);
-      assertEquals(10, coldBeverage.currentTemperature());
-     
-      coldBeverage.setForDays(coldBeverage);
-      assertEquals(20, coldBeverage.currentTemperature());
+      assertEquals(-3, coldBeverage.currentTemperature());
    }
    
    @Test
-   public void shouldBeAbleToCoolDownFruitJuice() {
+   public void shouldBeAbleToCoolDownBeverageForHours() {
+      Beverage beverage = new ColdBeverage();
+      
+      ColdBeverage coldBeverage = (ColdBeverage) beverage;
+      
+      Person olwethu = new Person();
+      
+      assertEquals("Drink a cold beverage", olwethu.drinkBeverage(beverage));
+      
+      coldBeverage.setForHours(coldBeverage);
+      assertEquals(-10, coldBeverage.currentTemperature());
+   }
+   
+   @Test
+   public void shouldBeAbleToCoolDownBeverageForDays() {
+      Beverage beverage = new ColdBeverage();
+      
+      ColdBeverage coldBeverage = (ColdBeverage) beverage;
+      
+      Person olwethu = new Person();
+      
+      assertEquals("Drink a cold beverage", olwethu.drinkBeverage(beverage));
+      
+      coldBeverage.setForDays(coldBeverage);
+      assertEquals(-20, coldBeverage.currentTemperature());
+   }
+   
+   @Test
+   public void shouldBeAbleToCoolDownFruitJuiceForMinutes() {
       Beverage beverage = new FruitJuice();
       
       FruitJuice fruitJuice = (FruitJuice) beverage;
@@ -155,13 +144,74 @@ class BeverageTest {
       assertEquals("Drinking a juice so: Don't spill your juice its too precious", olwethu.drinkBeverage(beverage));
 
       fruitJuice.setForMinutes(fruitJuice);
-      assertEquals(3, fruitJuice.currentTemperature());
-
-      fruitJuice.setForHours(fruitJuice);
-      assertEquals(10, fruitJuice.currentTemperature());
-
-      fruitJuice.setForDays(fruitJuice);
-      assertEquals(20, fruitJuice.currentTemperature());
+      assertEquals(-3, fruitJuice.currentTemperature());
    }
    
+   @Test
+   public void shouldBeAbleToCoolDownFruitJuiceForHours() {
+      Beverage beverage = new FruitJuice();
+      
+      FruitJuice fruitJuice = (FruitJuice) beverage;
+      
+      Person olwethu = new Person();
+      
+      assertEquals("Drinking a juice so: Don't spill your juice its too precious", olwethu.drinkBeverage(beverage));
+      
+      fruitJuice.setForHours(fruitJuice);
+      assertEquals(-10, fruitJuice.currentTemperature());
+   }
+   
+   @Test
+   public void shouldBeAbleToCoolDownFruitJuiceForDays() {
+      Beverage beverage = new FruitJuice();
+      
+      FruitJuice fruitJuice = (FruitJuice) beverage;
+      
+      Person olwethu = new Person();
+      
+      assertEquals("Drinking a juice so: Don't spill your juice its too precious", olwethu.drinkBeverage(beverage));
+      
+      fruitJuice.setForDays(fruitJuice);
+      assertEquals(-20, fruitJuice.currentTemperature());
+   }
+   
+   
+   
+   
+   @Test
+   public void shouldBeAbleToHeatUpBeverageLow() {
+      Beverage beverage = new HotBeverage();
+      
+      HotBeverage hotBeverage = (HotBeverage) beverage;
+      
+      Person olwethu = new Person();
+      
+      assertEquals("Drink a hot beverage", olwethu.drinkBeverage(beverage));
+      
+      hotBeverage.setLowTemperature(hotBeverage);
+      assertEquals(30, hotBeverage.currentTemperature());
+   }
+   
+   @Test
+   public void shouldBeAbleToHeatUpBeverageMedium() {
+      Beverage beverage = new HotBeverage();
+      
+      HotBeverage hotBeverage = (HotBeverage) beverage;
+      
+      Person olwethu = new Person();
+      
+      assertEquals("Drink a hot beverage", olwethu.drinkBeverage(beverage));
+      
+      hotBeverage.setMediumTemperature(hotBeverage);
+      assertEquals(60, hotBeverage.currentTemperature());
+   }
+   
+   @Test
+   public void shouldBeAbleToHeatUpBeverageHigh() {
+      Beverage beverage = new HotBeverage();
+      HotBeverage hotBeverage = (HotBeverage) beverage;
+      
+      hotBeverage.setHighTemperature(hotBeverage);
+      assertEquals(90, hotBeverage.currentTemperature());
+   }
 }
