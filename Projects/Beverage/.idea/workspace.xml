@@ -39,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="temperatures" />
       <recent name="main.temperatures" />
       <recent name="main.beverages" />
       <recent name="beverages" />
@@ -55,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeverageTest">
+  <component name="RunManager" selected="JUnit.MicrowaveTest">
     <configuration name="BeverageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Beverage" />
       <extension name="coverage">
@@ -67,38 +68,6 @@
       <option name="PACKAGE_NAME" value="beverages" />
       <option name="MAIN_CLASS_NAME" value="beverages.BeverageTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeverageTest.shouldBeAbleToCoolDownBeverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Beverage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beverages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="beverages" />
-      <option name="MAIN_CLASS_NAME" value="beverages.BeverageTest" />
-      <option name="METHOD_NAME" value="shouldBeAbleToCoolDownBeverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeverageTest.shouldBeAbleToCoolDownFruitJuice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Beverage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beverages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="beverages" />
-      <option name="MAIN_CLASS_NAME" value="beverages.BeverageTest" />
-      <option name="METHOD_NAME" value="shouldBeAbleToCoolDownFruitJuice" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,29 +88,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeverageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FridgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Beverage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beverages.*" />
+          <option name="PATTERN" value="temperatures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="beverages" />
-      <option name="MAIN_CLASS_NAME" value="beverages.BeverageTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="temperatures" />
+      <option name="MAIN_CLASS_NAME" value="temperatures.FridgeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FridgeTest.shouldBeAbleCoolDownABeverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="temperatures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="temperatures" />
+      <option name="MAIN_CLASS_NAME" value="temperatures.FridgeTest" />
+      <option name="METHOD_NAME" value="shouldBeAbleCoolDownABeverage" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicrowaveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="temperatures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="temperatures" />
+      <option name="MAIN_CLASS_NAME" value="temperatures.MicrowaveTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MicrowaveTest" />
+        <item itemvalue="JUnit.FridgeTest" />
+        <item itemvalue="JUnit.FridgeTest.shouldBeAbleCoolDownABeverage" />
         <item itemvalue="JUnit.BeverageTest" />
         <item itemvalue="JUnit.BeverageTest.shouldBeAbleToHeatUpBeverage" />
-        <item itemvalue="JUnit.BeverageTest.shouldBeAbleToCoolDownFruitJuice" />
-        <item itemvalue="JUnit.BeverageTest.shouldBeAbleToCoolDownBeverage" />
-        <item itemvalue="JUnit.BeverageTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -179,22 +178,22 @@
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="472" y="192" key="FileChooserDialogImpl/81.24.1519.876@81.24.1519.876" timestamp="1587383344609" />
-    <state width="1473" height="237" key="GridCell.Tab.0.bottom" timestamp="1589224931369">
+    <state width="1473" height="237" key="GridCell.Tab.0.bottom" timestamp="1589271056476">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.bottom/81.24.1519.876@81.24.1519.876" timestamp="1589224931369" />
-    <state width="1473" height="237" key="GridCell.Tab.0.center" timestamp="1589224931367">
+    <state width="1473" height="237" key="GridCell.Tab.0.bottom/81.24.1519.876@81.24.1519.876" timestamp="1589271056476" />
+    <state width="1473" height="237" key="GridCell.Tab.0.center" timestamp="1589271056474">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.center/81.24.1519.876@81.24.1519.876" timestamp="1589224931367" />
-    <state width="1473" height="237" key="GridCell.Tab.0.left" timestamp="1589224931367">
+    <state width="1473" height="237" key="GridCell.Tab.0.center/81.24.1519.876@81.24.1519.876" timestamp="1589271056474" />
+    <state width="1473" height="237" key="GridCell.Tab.0.left" timestamp="1589271056473">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.left/81.24.1519.876@81.24.1519.876" timestamp="1589224931367" />
-    <state width="1473" height="237" key="GridCell.Tab.0.right" timestamp="1589224931368">
+    <state width="1473" height="237" key="GridCell.Tab.0.left/81.24.1519.876@81.24.1519.876" timestamp="1589271056473" />
+    <state width="1473" height="237" key="GridCell.Tab.0.right" timestamp="1589271056475">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.right/81.24.1519.876@81.24.1519.876" timestamp="1589224931368" />
+    <state width="1473" height="237" key="GridCell.Tab.0.right/81.24.1519.876@81.24.1519.876" timestamp="1589271056475" />
     <state x="328" y="26" key="SettingsEditor" timestamp="1587735670856">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
@@ -211,10 +210,10 @@
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="517" y="344" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/81.24.1519.876@81.24.1519.876" timestamp="1587388709060" />
-    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589224192849">
+    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589270203900">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog/81.24.1519.876@81.24.1519.876" timestamp="1589224192849" />
+    <state x="619" y="181" key="com.intellij.testIntegration.createTest.CreateTestDialog/81.24.1519.876@81.24.1519.876" timestamp="1589270203900" />
     <state x="154" y="51" key="new project wizard" timestamp="1588074027171">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
