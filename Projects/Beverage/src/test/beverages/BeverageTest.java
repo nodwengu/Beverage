@@ -34,7 +34,7 @@ class BeverageTest {
 
    @Test
    public void olwethuShouldBeAbleToDrinkAColdDrink() {
-      Beverage beverage = new ColdBeverage();
+      Beverage beverage = new ColdBeverage(10);
 
      // HotBeverage hotBeverage = (HotBeverage) beverage;
 
@@ -60,7 +60,7 @@ class BeverageTest {
 
    @Test
    public void shouldNotSpillDrink() {
-      Beverage beverage = new ColdBeverage();
+      Beverage beverage = new ColdBeverage(10);
       ColdBeverage coldBeverage = (ColdBeverage) beverage;
       Person olwethu = new Person();
 
@@ -70,7 +70,7 @@ class BeverageTest {
 
    @Test
    public void shouldBeableToDrinkWithIce() {
-      Beverage beverage = new ColdBeverage();
+      Beverage beverage = new ColdBeverage(10);
       ColdBeverage coldBeverage = (ColdBeverage) beverage;
       Person olwethu = new Person();
 
@@ -80,7 +80,7 @@ class BeverageTest {
 
    @Test
    public void shouldBeAbleToDrinkFruitJuice() {
-      Beverage beverage = new FruitJuice();
+      Beverage beverage = new FruitJuice(10);
       ColdBeverage coldBeverage = (ColdBeverage) beverage;
       //FruitJuice fruitJuice = (FruitJuice) beverage;
       Person olwethu = new Person();
@@ -90,89 +90,89 @@ class BeverageTest {
 
       //assertEquals("Don't spill your cold drink", fruitJuice.drink());
    }
-   
+
    @Test
    public void shouldBeAbleToCoolDownBeverageForMinutes() {
-      Beverage beverage = new ColdBeverage();
+      Beverage beverage = new ColdBeverage(10);
       Fridge fridge = new Fridge();
       ColdBeverage coldBeverage = (ColdBeverage) beverage;
-      
+
       fridge.coolForMinutes(coldBeverage);
-      assertEquals(-3, coldBeverage.currentTemperature());
+      assertEquals(7, coldBeverage.currentTemperature());
    }
-   
+
    @Test
    public void shouldBeAbleToCoolDownBeverageForHours() {
-      Beverage beverage = new ColdBeverage();
+      Beverage beverage = new ColdBeverage(10);
       Fridge fridge = new Fridge();
       ColdBeverage coldBeverage = (ColdBeverage) beverage;
 
       fridge.coolForHours(coldBeverage);
-      assertEquals(-10, coldBeverage.currentTemperature());
+      assertEquals(0, coldBeverage.currentTemperature());
    }
 
    @Test
    public void shouldBeAbleToCoolDownBeverageForDays() {
-      Beverage beverage = new ColdBeverage();
+      Beverage beverage = new ColdBeverage(10);
       Fridge fridge = new Fridge();
       ColdBeverage coldBeverage = (ColdBeverage) beverage;
 
       fridge.coolForDays(coldBeverage);
-      assertEquals(-20, coldBeverage.currentTemperature());
+      assertEquals(-10, coldBeverage.currentTemperature());
    }
 
    @Test
    public void shouldBeAbleToCoolDownFruitJuiceForMinutes() {
-      Beverage beverage = new FruitJuice();
+      Beverage beverage = new FruitJuice(10);
       Fridge fridge = new Fridge();
       FruitJuice fruitJuice = (FruitJuice) beverage;
 
       fridge.coolForMinutes(fruitJuice);
-      assertEquals(-3, fruitJuice.currentTemperature());
+      assertEquals(7, fruitJuice.currentTemperature());
    }
 
    @Test
    public void shouldBeAbleToCoolDownFruitJuiceForHours() {
-      Beverage beverage = new FruitJuice();
+      Beverage beverage = new FruitJuice(10);
       Fridge fridge = new Fridge();
       FruitJuice fruitJuice = (FruitJuice) beverage;
 
       fridge.coolForHours(fruitJuice);
-      assertEquals(-10, fruitJuice.currentTemperature());
+      assertEquals(0, fruitJuice.currentTemperature());
    }
 
    @Test
    public void shouldBeAbleToCoolDownFruitJuiceForDays() {
-      Beverage beverage = new FruitJuice();
+      Beverage beverage = new FruitJuice(10);
       Fridge fridge = new Fridge();
       FruitJuice fruitJuice = (FruitJuice) beverage;
-      
+
       fridge.coolForDays(fruitJuice);
-      assertEquals(-20, fruitJuice.currentTemperature());
+      assertEquals(-10, fruitJuice.currentTemperature());
    }
 
-   
+
    // Why is the HotBeverage heating itself?
-   
+
    @Test
    public void shouldBeAbleToHeatUpBeverageLow() {
       Beverage beverage = new HotBeverage();
       Microwave microwave = new Microwave();
-      
+
       HotBeverage hotBeverage = (HotBeverage) beverage;
-      
+
       //System.out.println("Why is the HotBeverage heating itself?");
       // Why is the HotBeverage heating itself?
       microwave.low(hotBeverage);
       assertEquals(30, hotBeverage.currentTemperature());
    }
-   
+
    @Test
    public void shouldBeAbleToHeatUpBeverageMedium() {
       Beverage beverage = new HotBeverage();
       Microwave microwave = new Microwave();
       HotBeverage hotBeverage = (HotBeverage) beverage;
-      
+
       microwave.medium(hotBeverage);
       assertEquals(60, hotBeverage.currentTemperature());
    }

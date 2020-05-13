@@ -10,7 +10,7 @@ public class HotBeverage extends Beverage implements Heatable {
    
    @Override
    public void heatUpTo(int number) {
-      temperature += number;
+      temperature = number;
    }
    
    @Override

@@ -5,6 +5,10 @@ import main.temperatures.Coolable;
 public class ColdBeverage extends Beverage implements Coolable {
    private int temperature;
    
+   public ColdBeverage(int temperature) {
+      this.temperature = temperature;
+   }
+   
    @Override
    public int currentTemperature() {
       return temperature;
