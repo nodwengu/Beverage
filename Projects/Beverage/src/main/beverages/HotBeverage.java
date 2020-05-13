@@ -13,21 +13,6 @@ public class HotBeverage extends Beverage implements Heatable {
       temperature += number;
    }
    
-   public void setLowTemperature(Heatable heatableObj) {
-      heatableObj.heatUpTo(30);
-      temperature = heatableObj.currentTemperature();
-   }
-
-   public void setMediumTemperature(Heatable heatableObj) {
-      heatableObj.heatUpTo(60);
-      temperature = heatableObj.currentTemperature();
-   }
-
-   public void setHighTemperature(Heatable heatableObj) {
-      heatableObj.heatUpTo(90);
-      temperature = heatableObj.currentTemperature();
-   }
-
    @Override
    public String drink() {
       return "Drink a hot beverage";

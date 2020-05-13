@@ -15,21 +15,6 @@ public class ColdBeverage extends Beverage implements Coolable {
       temperature -= number;
    }
    
-   public void setForMinutes(Coolable coolableObj) {
-      coolableObj.coolDownWith(3);
-      temperature = coolableObj.currentTemperature();
-   }
-   
-   public void setForHours(Coolable coolableObj) {
-      coolableObj.coolDownWith(10);
-      temperature = coolableObj.currentTemperature();
-   }
-   
-   public void setForDays(Coolable coolableObj) {
-      coolableObj.coolDownWith(20);
-      temperature = coolableObj.currentTemperature();
-   }
-   
    @Override
    public String drink() {
       return "Drink a cold beverage";
